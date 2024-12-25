@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid black;
+    width: 100%;
+}
+.p-10{
+    padding: 10px;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
+
+
+
+
+/* ---------------------------------------- Sidebar start ----------------------------------------  */
+.sidebar{
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.sidebar-logo{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    border-right: 1px solid rgba(0, 0, 0, 0.0625);
+    padding: 0 24px;
+}
+.logo-text{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    color: #313435;
+}
+/* ---------------------------------------- Sidebar end ----------------------------------------  */
+
+
+
+/* ---------------------------------------- Page-container start ----------------------------------------  */
+.header-container{
+    width: 85%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+}
+
+.nav-left a{
+    color: #72777a;
+    font-size: 20px;
+    padding: 0px 14px;
+}
+
+.nav-right a{
+    color: #72777a;
+    font-size: 20px;
+    padding: 0px 14px;
+}
+/* ---------------------------------------- Page-container end ----------------------------------------  */
