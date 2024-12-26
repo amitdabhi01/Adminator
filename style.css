@@ -24,34 +24,103 @@
 .justify-end{
     justify-content: end;
 }
-
+.justify-space-between{
+    justify-content: space-between;
+}
 
 
 
 /* ---------------------------------------- Sidebar start ----------------------------------------  */
 .sidebar{
-    width: 15%;
+    width: 288px;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.0625);
+    transition: all 0.5s;
+}
+.hide-side{
+    width: 70px;
 }
 .sidebar-logo{
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
-    border-right: 1px solid rgba(0, 0, 0, 0.0625);
     padding: 0 24px;
+    margin-bottom: 25px;
 }
-.logo-text{
+.logo-text h5{
     font-size: 20px;
-    font-family: "Roboto", serif;
-    font-weight: 300;
     color: #313435;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.sidebar-link{
+    padding: 5px 15px;
+    /* border: 1px solid black; */
+    line-height: 35px;
+    width: 100%;
+}
+.sidebar-link-icon{
+    /* margin: 0px 15px 0px 0px; */
+    width: 23%;
+    border: 1px solid red;
+}
+.sidebar-link-icon i{
+    font-size: 22px;
+}
+.sidebar-link-name{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border: 1px solid red;
+    width: 77%;
+}
+.sidebar-link-name:hover{
+    color: #2c2d2e;
+}
+.ri-home-8-line{
+    color: #2196f3;
+}
+.ri-mail-line{
+    color: #795548;
+}
+.ri-share-forward-2-fill{
+    color: #2196f3;
+}
+.ri-calendar-line{
+    color: #ff5722;
+}
+.ri-message-2-line{
+    color: #673ab7;
+}
+.ri-bar-chart-2-line{
+    color: #3f51b5;
+}
+.ri-edit-2-line{
+    color: #03a9f4;
+}
+.ri-palette-line{
+    color: #e91e63;
+}
+.ri-menu-unfold-fill{
+    color: #ff9800;
+}
+.ri-map-2-line{
+    color: #9c27b0;
+}
+.ri-file-copy-2-line{
+    color: #f44336;
+}
+.ri-menu-2-line{
+    color: #009688;
 }
 /* ---------------------------------------- Sidebar end ----------------------------------------  */
 
 
 
-/* ---------------------------------------- Page-container start ----------------------------------------  */
+/* ---------------------------------------- head-container start ----------------------------------------  */
 .header-container{
     width: 85%;
     position: fixed;
@@ -60,17 +129,42 @@
 }
 .navbar{
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    height: 70px;
+}
+.btn{
+    margin: 0px 10px 0px 15px;
+    font-size: 20px;
+    border: none;
+    color: #313435;
+}
+.nav-left a i{
+    padding: 0px 15px;
+    color: #5b5e61;
+    font-size: 20px;
+}
+.nav-left a i:hover{
+    color: #151616;
 }
 
-.nav-left a{
-    color: #72777a;
+.nav-right a i{
+    padding: 0px 15px;
+    color: #5b5e61;
     font-size: 20px;
-    padding: 0px 14px;
 }
-
-.nav-right a{
-    color: #72777a;
-    font-size: 20px;
-    padding: 0px 14px;
+.nav-right img{
+    width: 35px;
+    border-radius: 50%;
 }
-/* ---------------------------------------- Page-container end ----------------------------------------  */
+.nav-right a i:hover{
+    color: #151616;
+}
+.nav-right a p:hover{
+    color: #000000;
+}
+.profile-name{
+    color: #5b5e61;
+    padding: 0px 15px;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
+/* ---------------------------------------- head-container end ----------------------------------------  */

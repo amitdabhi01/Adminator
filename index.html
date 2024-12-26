@@ -27,18 +27,109 @@
                 </a>
              </div>
         </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-home-8-line"></i></div>
+                <div class="sidebar-link-name">Dashboard</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-mail-line"></i></div>
+                <div class="sidebar-link-name">Email</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-share-forward-2-fill"></i></div>
+                <div class="sidebar-link-name">Compose</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-calendar-line"></i></div>
+                <div class="sidebar-link-name">Calendar</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-message-2-line"></i></div>
+                <div class="sidebar-link-name">Chat</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-bar-chart-2-line"></i></div>
+                <div class="sidebar-link-name">Charts</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-edit-2-line"></i></div>
+                <div class="sidebar-link-name">Forms</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-palette-line"></i></div>
+                <div class="sidebar-link-name">UI Elements</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-menu-unfold-fill"></i></div>
+                <div class="sidebar-link-name">Tables</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-map-2-line"></i></div>
+                <div class="sidebar-link-name">Maps</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-file-copy-2-line"></i></div>
+                <div class="sidebar-link-name">Pages</div>
+            </a>
+        </div>
+        <div class="sidebar-link">
+            <a href="" class="d-flex justify-start">
+                <div class="sidebar-link-icon"><i class="ri-menu-2-line"></i></div>
+                <div class="sidebar-link-name">Multiple Levels</div>
+            </a>
+        </div>
     </div>
+
+
+    
     <div class="header-container">
-        <div class="navbar p-10">
-            <div class="nav-left">
-                <a href=""><i class="ri-menu-line"></i></a>
-                <a href=""><i class="ri-search-line"></i></i></a>
+        <div class="navbar p-10 d-flex justify-space-between">
+            <div class="nav-left d-flex">
+                <button class="btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+                <a href=""><i class="ri-search-line"></i></a>
             </div>
-            <div class="nav-right">
-                <a href=""><i class="ri-notification-4-fill"></i></a>
+            <div class="nav-right d-flex">
+                <a href=""><i class="ri-notification-4-line"></i></i></a>
                 <a href=""><i class="ri-mail-line"></i></a>
+                <a href="">
+                    <img src="images/profile-pic.jpg" alt="">
+                </a>
+                <a href=""><p class="profile-name">John Deo</p></a>
             </div>
         </div>
     </div>
 </body>
+
+ <script src="jquery.min.js"></script>
+
+ <script>
+    $(".btn").click(function(){
+        $(".sidebar").toggleClass("hideslide");
+        $(".sidebar-link-name").toggle();
+        $(".logo-text").toggle();
+    })
+ </script>
 </html>
