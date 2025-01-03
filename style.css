@@ -582,4 +582,111 @@
     font-size: 19px;
     font-weight: 600;
 }
+.wind-speed{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+}
+.wind h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wind-data h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sunrise-time{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+}
+.sunrise h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sunrise-data h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pressure-byte{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    margin-bottom: 30px;
+}
+.pressure h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pressure-data h6{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.day{
+    margin-bottom: 10px;
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.celcias{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+}
+.celcias1{
+    color: #72777a;
+    font-family: system-ui,sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 10.5px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+}
+.ri-rainy-line{
+    font-size: 30px;
+    color: orangered;
+}
+.ri-sun-line{
+    font-size: 30px;
+    color: orangered;
+}
+.ri-sun-foggy-line{
+    font-size: 30px;
+    color: orangered;
+}
+.ri-cloudy-2-line{
+    font-size: 30px;
+    color: orangered;
+}
+.ri-snowy-line{
+    font-size: 30px;
+    color: orangered;
+}
+.ri-cloud-windy-line{
+    font-size: 30px;
+    color: orangered;
+}
 /* ---------------------------------------- weather section end ----------------------------------------  */
